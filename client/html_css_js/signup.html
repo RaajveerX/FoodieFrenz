@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>FoodieFrenz: Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script>
+    <script type="module" src="../client.js"></script>
+    <script type="module" src="signup.js"></script>
+  </head>
+    <body>
+        <div class="home">
+            <!-- fix - manually fixed home button location -->
+            <button id="HomeButton" class="text-buttons" style="margin-top: 12px; margin-left: 12px;">HOME</button>
+        </div>  
+        <div id="dialog-container">
+            <div id="dcont">
+                <h3 class="inter-font">Sign Up</h3>
+                <h4 class="inter-font" style="font-weight: 300; background-color:rgba(253, 215, 180, 0.48);; padding: 5px;">for personalized suggestions and more!</h4>
+                    <label for="fname" style="font-family: Inter;">First Name: </label>
+                    <input id="fname" type="text"><br><br>
+                    <label for="lname" style="font-family: Inter;">Last Name: </label>
+                    <input id="lname" type="text"><br><br>
+                    <label for="email" style="font-family: Inter;">UserName:</label>
+                    <input id="email" type="text"><br><br>
+                    <label for="password" style="font-family: Inter;">Password: </label>
+                    <input id="password" type="text"><br>
+                    <button type="submit" id="cred-submit">Sign Up</button> 
+            </div>
+        </div>
+    </body>
+</html>

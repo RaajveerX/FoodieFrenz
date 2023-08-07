@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FoodieFrenz: Favorites</title>
+        <link rel="stylesheet" href="collections.css" />
+        <script type="module" src="../client.js"></script>
+        <script type="module" src="collections.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script> 
+    </head>
+        <body style="margin: 0; padding: 0;">
+            <div class="home">
+                <button id="HomeButton"class="text-buttons">HOME</button>
+                <div id="pfp"></div>
+                <h1 id="header">FAVORITES</h1>
+            </div>
+            
+            <div class="newRest">
+                <div class="newRestInput">
+                    <h4 for="rest-name-input">Restaurant Name:</h4>
+                    <input id="rest-name-input"></input>
+                </div>
+            </div>
+
+            <div class="restaurant">
+                <button id="addCollectButton" class="rectangle">Add to Collection</button>
+            </div>
+
+            <div class="restaurant">
+                <button id="deleteCollectButton" class="rectangle">Delete Collection</button>
+            </div>
+
+
+            <h2>My Favorite Restaurants</h2>
+
+            <!-- Container where we put rests elements through JavaScript-->
+            <div class="rests" id="rests"></div>
+        
+
+        <script type="module" src="./collections.js"></script>
+        <script type="module" src="./landing.js"></script>
+        </body>
+</html>
+
+<!-- 
+TODO: everytime add restaurant, add edit button 
+to update need to do read then update -->

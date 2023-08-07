@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>FoodieFrenz: Review</title>
+        <link rel="stylesheet" href="review.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="module" src="../client.js"></script>
+        <script type="module" src="review.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script>
+    </head>
+        <body style="margin: 0; padding: 0;">
+            <div class="home">
+                <button id="HomeButton"class="text-buttons">HOME</button>
+                <div id="pfp"></div>
+            </div> 
+                <div class = "header">
+                    <div class = "rectangle" id="restaurantPic"></div>
+                    <div id = "restaurantLogo" position="absolute"></div>
+                    <text id = "restaurantName"></text>
+                    <button type="submit" id="reviewButton" >SUBMIT REVIEW</button>
+                </div> 
+                <div id="reviewSection">
+                    <div id="rate" class="wrapper">
+                        <div id= "rateHeader" class="inputHeading">RATING</div>
+                        <div id="stars" class="secondItem">
+                            <span id = star1 class="fa fa-star"></span>
+                            <span id = star2 class="fa fa-star"></span>
+                            <span id = star3 class="fa fa-star"></span>
+                            <span id = star4 class="fa fa-star"></span>
+                            <span id = star5 class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div id="cost" class="wrapper">  
+                        <div id="costHeader" class="inputHeading">COST</div>     
+                        <div id="dollars" class="secondItem">
+                            <span id = dollar1 class="fa fa-dollar"></span>
+                            <span id = dollar2 class="fa fa-dollar"></span>
+                            <span id = dollar3 class="fa fa-dollar"></span>
+                            <span id = dollar4 class="fa fa-dollar"></span>
+                            <span id = dollar5 class="fa fa-dollar"></span>
+                        </div>             
+                    </div>
+                    <div id="description" class="wrapper"> 
+                        <div id="descriptionHeader" class="inputHeading">DESCRIPTION</div>
+                        <div id="descriptionInput" class="secondItem">
+                            <textarea id="descriptionText"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+</html>

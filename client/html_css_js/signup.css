@@ -1,0 +1,105 @@
+/* SIGN UP PAGE CSS */
+
+.text-buttons{
+    background:none;
+    border: none;
+    margin: 0;
+    margin-left: 20px;
+    padding:0;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 900;
+}
+.text-buttons:hover{
+    color: orange;
+}
+
+#dcont{
+    width: 600px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#dialog-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.inter-font{
+    font-family: Inter;
+
+}
+
+#cred-submit{
+    font-family: Inter;
+    border: none;
+    background: #FDD7B4;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+#cred-submit:hover{
+    background-color: orange;
+}
+
+#email{
+    font-family: Inter;
+    box-sizing: border-box;
+    width: 360px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+label[for="email"] {
+    font-family: Inter;
+    margin-right: 40px;
+}
+
+#fname{
+    font-family: Inter;
+    box-sizing: border-box;
+    width: 360px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#lname{
+    font-family: Inter;
+    box-sizing: border-box;
+    width: 360px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#password{
+    font-family: Inter;
+    box-sizing: border-box;
+    width: 360px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+label[for="password"] {
+    font-family: Inter;
+    margin-right: 7px;
+}
+
+.home { grid-area: 2 / 2 / 2 / 2;
+    text-align: start;
+} 

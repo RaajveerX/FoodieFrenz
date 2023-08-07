@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <link href="restaurant.css" rel="stylesheet" />
+        <title>FoodieFrenz: Restaurant</title>
+        <script type="module" src="./restaurant.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script>
+    </head>
+    <body style="margin: 0; padding: 0;">
+        <div id="home">
+            <button id="HomeButton">HOME</button>
+            <div class="Pfp"></div>
+        </div>
+        <div id="header">
+            <div id="res-photo"></div>
+            <div id="res-icon"></div>
+            <text id="res-name">PANERA BREAD</text>
+            <button id="ReviewButton">LEAVE A REVIEW!</button>
+        </div>
+        <div id="infoSection">
+            <div id= "food"class = "subSection">
+                <label id="FoodRatingLabel">FOOD RATING</label>
+                <div id="food-rating" class="infoBox"></div>
+            </div>
+            <div id="cost"class = "subSection">
+                <label id=" CostLabel">COST</label>
+                <div id="cost-rating" class="infoBox"></div>
+            </div>
+            <div id="location" class = "subSection">
+                <label id="LocationLabel">LOCATION</label>
+                <div id="LocationBox" class="infoBox"></div>
+            </div>
+            <div id="contact" class = "subSection">
+                <label id="ContactLabel">CONTACT</label>
+                <div id="ContactBox" class="infoBox"></div>
+            </div>
+            <div></div>
+            <button id="FavoritesButton">ADD TO FAVORITES</button>
+            <div id="embeded">
+                <div id="ReviewBox">No Embeded Reviews</div>
+                <!-- TODO if time add report button to delete review -->
+                <!-- <button id="reportButton">report</button> -->
+            </div>
+        </div>
+    </body>
+</html>

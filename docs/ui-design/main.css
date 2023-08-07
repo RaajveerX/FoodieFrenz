@@ -1,0 +1,503 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* SIGN UP PAGE CSS */
+
+.upper-rectangle{
+    position: absolute;
+    width: 1506.52px;
+    height: 70.1px;
+    left: -66.52px;
+    top: 0px;
+
+    background: #FDD7B4;
+}
+
+.signup-text{
+    position: absolute;
+    width: 113px;
+    height: 36px;
+    left: 687.74px;
+    top: 20.55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.heading-text{
+    position: absolute;
+    width: 566px;
+    height: 36px;
+    left: 520.74px;
+    top: 92.95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.signup-rect1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 851.88px;
+    height: 505.03px;
+    left: 45.96px;
+    top: 145.61px;
+
+    border: 3px solid #FF922D;
+    border-radius: 40px;
+}
+
+.avatar-ellipse{
+    box-sizing: border-box;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 1090.52px;
+    top: 145.61px;
+    border: 3px solid #FAA75C;
+    border-radius: 50%;
+}
+
+.signup-rect2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 412.68px;
+    height: 350.5px;
+    left: 950.39px;
+    top: 300.61px;
+
+    border: 3px solid #FAA75C;
+    border-radius: 40px;
+}
+
+.signup-labels1{
+    position: absolute;
+    width: 131px;
+    height: 32.82px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#firstname{
+    left: 80.52px;
+    top: 175.42px;
+}
+
+#lastname{
+    left: 500.52px;
+    top: 175.42px;
+}
+
+#email{
+    left: 58.52px;
+    top: 295.42px;
+}
+
+#dietrestrict{
+    left: 90.52px;
+    top: 410.42px;
+    white-space: nowrap;
+}
+
+#dietpref{
+    left: 90.52px;
+    top: 523.42px;
+    white-space: nowrap;
+}
+
+.signup-box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 311.14px;
+    height: 57.52px;
+    /* left: 84.52px;
+    top: 265.1px; */
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#boxv1{
+    left: 84.52px;
+    top: 215.1px;
+}
+
+#boxv2{
+    left: 500.52px;
+    top: 215.1px;
+}
+
+#boxv3{
+    left: 84.52px;
+    top: 330.1px;
+}
+
+#boxv4{
+    left: 84.52px;
+    top: 446.1px;
+}
+
+#boxv5{
+    left: 84.52px;
+    top: 560.1px;
+}
+
+.temptext1{
+    position: absolute;
+    width: 91px;
+    height: 36px;
+    left: 1122.74px;
+    top: 195.44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.temptext2{
+    position: absolute;
+    width: 230px;
+    height: 36px;
+    left: 1060.52px;
+    top: 450.39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.temptext3{
+    position: absolute;
+    width: 230px;
+    height: 36px;
+    left: 550.52px;
+    top: 400.39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+/* YOUR COLLECTIONS PAGE CSS */
+
+.ycollections-heading{
+    position: absolute;
+    width: 509px;
+    height: 61px;
+    left: 463.74px;
+    top: 20.35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 61px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.ycollect-subhead{
+    position: absolute;
+    width: 982px;
+    height: 86.24px;
+    left: 224.88px;
+    top: 75.32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.profile-top{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 85.02px;
+    height: 78.82px;
+    left: 1237.71px;
+    top: 25.5px;
+    border-radius: 50%;
+
+    background: rgba(217, 217, 217, 0.71);
+    border: 3px solid #000000;
+}
+
+.border-line{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1564.13px;
+    height: 145.56px;
+    left: 0.78px;
+    top: -15px;
+
+    border: 1px solid #000000;
+}
+
+.collections-textlabels{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#c-label1{
+    width: 496.95px;
+    left: -10px;
+    top: 160.66px;
+}
+
+#c-label2{
+    width: 496.95px;
+    left: 430px;
+    top: 160.66px;
+}
+
+#c-label3{
+    width: 496.95px;
+    left: 850px;
+    top: 160.66px;
+}
+
+.c-box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300.88px;
+    height: 200.43px;
+    /* left: 67.53px;
+    top: 343.05px; */
+
+    opacity: 0.5;
+    border: 5px solid #FF5C00;
+    border-radius: 50px;
+}
+
+#box1{
+    left: 85.53px;
+    top: 210.05px;
+}
+
+#box2{
+    left: 525.53px;
+    top: 210.05px;
+}
+
+#box3{
+    left: 950.53px;
+    top: 210.05px;
+}
+
+#box4{
+    left: 85.53px;
+    top: 460.05px;
+}
+
+.plus-sign {
+    width: 4px;
+    height: 30px;
+    background-color: #FF5C00;
+    opacity: 0.8;
+    position: relative;
+    margin: 20px;
+    top: 527px;
+    left: 205px;
+}
+  
+.plus-sign2{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #FF5C00;
+    opacity: 0.8;
+    position: absolute;
+    top: 560px;
+    left: 220px;
+}
+  
+
+/* REVIEW PAGE CSS */
+.inputBox{
+    box-sizing: border-box;
+    position: absolute;
+    width: 331.62px;
+    height: 53.14px;
+    background: rgba(250, 167, 92, 0.46);
+    border: 1px solid #000000;
+}
+
+#imageBorder{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1361.93px;
+    height: 354.47px;
+    left: 38.62px;
+    top: 30.85px;
+    border: 1px solid #000000;
+    border-radius: 25px
+}
+
+.center{
+    padding: 41.5px; 
+}
+
+#reviewButton{
+    position: absolute;
+    width: 400.36px;
+    height: 83.18px;
+    left: 967.01px;
+    top: 338.15px;
+    background: #faa65c;
+    border-radius: 98px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0;
+    border: none;
+}
+
+#restaurantName{
+    position: absolute;
+    width: 380px;
+    height: 61px;
+    left: 534.58px;
+    top: 421.33px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+#restaurantPic{
+    position: absolute;
+    width: 186.57px;
+    height: 175.9px;
+    left: 86.59px;
+    top: 314.77px;
+    background: #3F3838;
+    border-radius: 50%;
+}
+
+#rateTheFoodInput{
+    top: 606.52px;
+    left: 38.62px;
+}
+
+#rateTheCostInput{
+    top : 729.48px;
+    left: 38.62px;
+}
+
+#convenienceInput{
+    top : 867px;
+    left: 38.62px;
+}
+
+#anotherMetric1{
+    top: 606.52px;
+    left: 558.77px;
+}
+
+#anotherMetric2{
+    top : 729.48px;
+    left : 558.77px;
+}
+
+#anotherMetric3{
+    top : 867px;
+    left: 558.77px;
+}
+
+.inputHeading{
+    position: absolute;
+    height: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#rateTheFoodText{
+    left: 38.62px;
+    top: 566.86px;
+}
+
+#rateTheCostText{
+    left: 38.37px;
+    top: 697.1px;
+}
+
+#convenienceInputText{
+    left: 38.62px;
+    top: 827.35px;
+}
+
+#anotherMetric1text{
+    left: 558.77px;
+    top: 566.86px;
+}
+
+#anotherMetric2text{
+    left: 558.77px;
+    top: 689.82px;
+}
+
+#anotherMetric3text{
+    left: 558.77px;
+    top: 827.35px;
+}
+
+.labelFirst{
+    display:flex;
+    flex-direction:column;
+    margin-top: 580px;
+}

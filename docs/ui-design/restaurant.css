@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+#HomeButton {
+  width: 91px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 44px;
+  left: 64px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+#ReviewButton {
+  width: 400px;
+  height: 83px;
+  background: rgba(249,167,91,1);
+  position: absolute;
+  top: 319px;
+  left: 928px;
+  border-radius: 98px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 25px;
+  vertical-align: bottom;
+  text-align: center;
+  border: none;
+}
+
+.Pfp {
+  width: 85px;
+  height: 85px;
+  background: url('images/icon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute; 
+  left: 1300px;
+  border-radius: 50%;
+}
+
+.spacing {
+  width: 100%;
+  height: 901px; 
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  left: 38px;
+  overflow: hidden;
+}
+.res-icon {
+  width: 186px;
+  height: 175px;
+  background: rgba(250,167,92,1);
+  position: absolute;
+  top: 295px;
+  left: 47px;
+  border-radius: 50%;
+}
+
+.res-photo {
+  width: 1360px;
+  height: 238px;
+  position: absolute;
+  top: 127px;
+  left: 0px;
+  border: 1px solid rgba(250,167,92,1);
+  border-radius: 25px;
+
+  color: gray;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.res-name {
+  width: 380px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 24px;
+  left: 498px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 50px;
+  text-align: left;
+}
+
+#FoodRatingLabel {
+  width: 200px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 566px;
+  left: 38px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+
+.food-rating {
+  width: 331px;
+  height: 53px;
+  background: rgba(253,215,180,1);
+  position: absolute;
+  top: 587px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 15px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#CostLabel {
+  width: 71px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 689px;
+  left: 38px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+
+.cost-rating {
+  width: 331px;
+  height: 53px;
+  background: rgba(253,215,180,1);
+  position: absolute;
+  top: 710px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 15px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.LocationLabel {
+  width: 93px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 547px;
+  left: 405px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.LocationBox {
+  width: 331px;
+  height: 53px;
+  background: rgba(249,167,91,0.46000000834465027);
+  position: absolute;
+  top: 587px;
+  left: 405px;
+  border: 1px solid rgba(0,0,0,1);  
+
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 15px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.ContactLabel {
+  width: 93px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 670px;
+  left: 405px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.ContactBox {
+  width: 331px;
+  height: 53px;
+  background: rgba(253,215,180,1);
+  position: absolute;
+  top: 710px;
+  left: 405px;
+  border: 1px solid rgba(0,0,0,1);
+
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 15px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.ReviewBox {
+  width: 475px;
+  height: 166px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 597px;
+  left: 907px;
+  border: 1px solid rgba(0,0,0,1);
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: center;
+  text-indent: 140px;
+  
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.MapBox {
+  width: 474px;
+  height: 167px;
+  background: rgba(255,255,255,1);
+  position: absolute;
+  top: 798px;
+  left: 908px;
+  border: 1px solid rgba(0,0,0,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: center;
+  text-indent: 160px;
+  
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}

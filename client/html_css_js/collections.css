@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.text-buttons{
+    background:none;
+    border: none;
+    margin: 20px;
+    margin-left: 20px;
+    padding:0;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.text-buttons:hover{
+    color: orange;
+}
+
+#pfp{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 8px;
+    border-radius: 50%;
+    background: url('../images/icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#header{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.restaurant{
+    text-align: center;
+}
+
+/* #restaurantPic{
+    box-sizing: border-box;
+    height: 175px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    background:url('../images/panera_banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin: 8px;
+    margin-top: 20px;
+    color: white;
+} */
+
+#rest-name{
+    margin-right: 70px;
+    font-weight: 400;
+}
+
+.filter { 
+    background-color: #FFE2B7;
+    padding: 30px; 
+    text-align: center; 
+    height: 250px;
+    margin-top: 50px;
+} 
+
+#addCollectButton {
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin: 8px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 100%;
+    width: 25%;
+
+}
+
+#addCollectButton:hover{
+    background-color: #FFE2B7;
+    cursor: pointer;
+}
+
+#deleteCollectButton {
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin: 8px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 100%;
+    width: 25%;
+
+}
+
+#deleteCollectButton:hover{
+    background-color: #FFE2B7;
+    cursor: pointer;
+}
+
+.newRest h3 {
+    margin-bottom: 0;
+  }
+
+.newRestInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.rest {
+    border: 2px solid black;
+    border-color: orange;
+    border-radius: 1rem;
+    display: flex;
+    padding: 0.3rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    margin-left: 33%;
+}
+

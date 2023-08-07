@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.text-buttons{
+    background:none;
+    border: none;
+    margin: 20px;
+    margin-left: 20px;
+    padding:0;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.text-buttons:hover{
+    color: orange;
+}
+
+#pfp{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 8px;
+    border-radius: 50%;
+    background: url('../images/icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#header{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+#subtitle{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: -5px;
+  margin-left: 530px;
+}
+
+.restaurant{
+  text-align: center;
+}
+
+.rectangle{
+  background-color: white;
+}
+
+#ResButton1 { 
+  width: 273px;
+  height: 63px;
+  background: rgba(249,167,91,1);
+  position: absolute;
+  border-radius: 100px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: center;
+  border: none; 
+  left: 15%;
+  top: 31%;
+  z-index: 1;
+}
+
+#ResButton1:hover { 
+  cursor: pointer;
+  background-color: rgba(255,91,0,1);
+}
+
+#ResButton2 { 
+  width: 273px;
+  height: 63px;
+  background: rgba(249,167,91,1);
+  position: absolute;
+  border-radius: 100px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: center;
+  border: none; 
+  left: 15%;
+  top: 64%;
+  z-index: 1;
+}
+#ResButton2:hover { 
+  cursor: pointer;
+}
+
+#ResButton3 { 
+  width: 273px;
+  height: 63px;
+  background: rgba(249,167,91,1);
+  position: absolute;
+  border-radius: 100px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: center;
+  border: none; 
+  left: 15%;
+  top: 99%;
+  z-index: 1;
+}
+
+#ResButton3:hover { 
+  cursor: pointer;
+}
+
+#border1 {
+  width: 80%;
+  height: 152px;
+  position: absolute;
+  top: 230px;
+  right: 115px;
+  border: 2px solid rgba(255,91,0,1);
+  border-radius: 20px;
+ 
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 80px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  z-index: 0;
+}
+
+#border2 {
+  width: 80%;
+  height: 152px;
+  position: absolute;
+  top: 450px;
+  right: 115px;
+  border: 2px solid rgba(255,91,0,1);
+  border-radius: 20px;
+ 
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 80px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  z-index: 0;
+}
+
+.white_frame {
+  width: 980px;
+  height: 180px;
+  background: white;
+  position: absolute;
+  top: 640px;
+  left: 230px;
+}
+
+#border3 {
+  width: 80%;
+  height: 152px;
+  position: absolute;
+  top: 670px;
+  right: 115px;
+  border: 2px solid rgba(255,91,0,1);
+  border-radius: 20px;
+ 
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 80px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.Info {
+  width: 290px;
+  position: absolute;
+  top: 97px;
+  left: 50px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.InfoBord {
+  width: 290px;
+  height: 73px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.white_frame2 {
+  width: 980px;
+  height: 187px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 420px;
+  left: 229px;
+}
+
+.Info2 {
+  width: 290px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 96px;
+  left: 50px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+.white_frame3 {
+  width: 980px;
+  height: 187px;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 202px;
+  left: 229px;
+}
+
+.Info3 {
+  width: 290px;
+  position: absolute;
+  top: 96px;
+  left: 50px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-align: center;
+}

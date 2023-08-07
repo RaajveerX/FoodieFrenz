@@ -1,0 +1,187 @@
+rank-res.css
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+.Line { 
+position: absolute;
+width: 1569.5px;
+height: 0px;
+left: -82.5px;
+top: 179.3px;
+
+border: 1px solid #000000;
+}
+
+
+#ResButton { 
+  width: 273px;
+  height: 73px;
+  background: rgba(249,167,91,1);
+  position: absolute;
+  border-radius: 100px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: center;
+  border: none; 
+}
+
+.white_frame {
+  width: 980px;
+  height: 180px;
+  background: white;
+  position: absolute;
+  top: 640px;
+  left: 230px;
+}
+.border {
+  width: 980px;
+  height: 152px;
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  border: 5px solid rgba(255,91,0,1);
+  border-radius: 20px;
+ 
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-indent: 80px;
+
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.Info {
+  width: 290px;
+  position: absolute;
+  top: 97px;
+  left: 50px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.InfoBord {
+  width: 290px;
+  height: 73px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.white_frame2 {
+  width: 980px;
+  height: 187px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 420px;
+  left: 229px;
+}
+
+.Info2 {
+  width: 290px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 96px;
+  left: 50px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+.white_frame3 {
+  width: 980px;
+  height: 187px;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 202px;
+  left: 229px;
+}
+
+.Info3 {
+  width: 290px;
+  position: absolute;
+  top: 96px;
+  left: 50px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Icon {
+  width: 85px;
+  height: 85px;
+  background: url('images/icon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 1400px;
+  border-radius: 50%;
+}
+
+.Subtitle {
+  width: 982px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 98px;
+  left: 229px;
+  font-family: Inter;
+  font-weight: Light;
+  font-size: 25px;
+  text-align: center;
+}
+.Title {
+  width: 470px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 13px;
+  left: 490px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+#Acc {
+  width: 104px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 28px;
+  left: 186px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: right;
+  border: none; 
+}
+
+#HomeButton {
+  width: 72px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 28px;
+  left: 51px;
+  font-family: Inter;
+  font-weight:  Bold;
+  font-size: 25px;
+  text-align: right;
+  border: none; 
+}

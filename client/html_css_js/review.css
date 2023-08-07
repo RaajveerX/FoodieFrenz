@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.text-buttons{
+    background:none;
+    border: none;
+    margin-top: 20px; 
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.text-buttons:hover{
+    color: orange;
+}
+
+#pfp{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 8px;
+    border-radius: 50%;
+    background: url('../images/icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#restaurantPic{
+    box-sizing: border-box;
+    height: 250px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center center;
+    margin: 8px;
+    margin-top: 25px;
+}
+
+#reviewButton{
+    margin-top: -50px;
+    margin-left: 60%;
+    width: 400px;
+    height: 83px;
+    font-weight: 400;
+    font-size: 25px;
+    border: 1px solid #3F3838;
+    border-radius: 98px;
+    background: #faa65c;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#reviewButton:hover{
+    background: #ff8923;
+    cursor: pointer;
+}
+
+#restaurantLogo{
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    margin-top: -90px;
+    margin-left: 85px;
+    background: #3F3838;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    max-width: auto;
+}
+
+#restaurantName{
+    position: absolute;
+    width: 1000px;
+    height: 61px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.inputHeading{
+    position: sticky;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+#reviewSection{
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 70px 70px 70px 50px 61px;
+    background-color: #FFE2B7;
+    padding-top: 36px;
+}
+
+#rate{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#cost{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#image{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#reviewImage{
+    font-family:'Inter', sans-serif;
+}
+
+#description{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+}
+
+#description{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-template-columns: auto;
+    padding-right: 5%;
+}
+
+#descriptionText{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    background:rgba(253,215,180,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.wrapper{
+    margin-left: 100px;
+}
+
+.secondItem{
+    margin-left: 10px;
+}
+
+.fa:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.fa + .selected:hover{
+    color: rgb(255, 123, 0);
+}
+
+.selected{
+    color:orange;
+}
+
+.unelected{
+    color:black;
+}
